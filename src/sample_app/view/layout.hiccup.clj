@@ -6,6 +6,6 @@
   (include-css "/stylesheets/sample_app.css")
   (include-js "/javascript/sample_app.js")]
  [:body
-;  (eval (:template-body joodo.views/*view-context*))
   [:img { :src "/images/WED-logo.png" }]
+  (eval (:template-body joodo.views/*view-context*))
 ]]
